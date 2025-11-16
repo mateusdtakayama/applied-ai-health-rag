@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is high blood pressure?",
+    "ground_truth": "High blood pressure, also called hypertension, is when blood puts too much pressure against the walls of your arteries. Almost half of American adults have high blood pressure, usually with no symptoms, but it can cause serious problems such as stroke, heart failure, heart attack, and kidney disease.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "What lifestyle changes can help lower high blood pressure?",
+    "ground_truth": "Healthy lifestyle changes that can help reduce high blood pressure include losing weight, being physically active, managing stress, reducing sodium in your diet, avoiding alcohol, tobacco, and illegal drugs, and getting enough sleep.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "What happens if lifestyle changes alone cannot lower blood pressure?",
+    "ground_truth": "Sometimes lifestyle changes alone cannot control or lower your high blood pressure. In that case, your health care provider may prescribe blood pressure medicines.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "How do ACE inhibitors and ARBs work to lower blood pressure?",
+    "ground_truth": "Angiotensin-converting enzyme (ACE) inhibitors and angiotensin II receptor blockers (ARBs) keep your blood vessels from narrowing as much, allowing blood to move through them with less pressure and thereby lowering blood pressure.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "How do beta blockers help lower blood pressure?",
+    "ground_truth": "Beta blockers help your heart beat slower and with less force, so your heart pumps less blood through your blood vessels. This lowers blood pressure. Beta blockers are typically used only as a backup option or if you also have certain other conditions.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "How do calcium channel blockers lower blood pressure?",
+    "ground_truth": "Calcium channel blockers prevent calcium from entering the muscle cells of your heart and blood vessels. This allows the blood vessels to relax, which helps lower blood pressure.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "How do diuretics lower blood pressure?",
+    "ground_truth": "Diuretics remove extra water and sodium (salt) from your body, which lowers the amount of fluid in your blood. This helps lower blood pressure. Diuretics are often used with other high blood pressure medicines, sometimes in one combined pill.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "Why might you need more than one blood pressure medicine?",
+    "ground_truth": "Often, two or more medicines work better than one at lowering blood pressure. If the commonly used medicines do not lower your blood pressure enough, your provider may suggest that you take another type of blood pressure medicine.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  },
+  {
+    "question": "If you are taking blood pressure medicines, do lifestyle changes still matter?",
+    "ground_truth": "Yes. While taking blood pressure medicines, it is still important to keep up with your healthy lifestyle changes. Doing both helps keep blood pressure lower than lifestyle changes or medicines alone.",
+    "source": "conditions_hypertension_treatment",
+    "source_file": "data/processed/health_education/conditions/hypertension/hypertension_medlineplus_treatment.md"
+  }
+]

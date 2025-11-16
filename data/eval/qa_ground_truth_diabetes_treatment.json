@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is diabetes?",
+    "ground_truth": "Diabetes, also known as diabetes mellitus, is a disease in which your blood glucose (blood sugar) levels are too high. Glucose is your body's main source of energy and comes from the food you eat as well as being produced by your body. Insulin, a hormone made by your pancreas, helps move glucose from your bloodstream into your cells, where it can be used for energy. In diabetes, your body can't make insulin, can't use insulin as well as it should, or both, so too much glucose stays in your blood and doesn't reach your cells.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "What are the main types of diabetes?",
+    "ground_truth": "There are different types of diabetes. In type 1 diabetes, your body makes little or no insulin because your immune system attacks and destroys the cells that produce insulin. Type 2 diabetes is the most common form; your body may still make insulin, but your cells don't respond well to it and can't easily take up enough glucose from your blood. Gestational diabetes is a form of diabetes that develops during pregnancy when your body can't make the extra insulin it needs.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "How is diabetes diagnosed?",
+    "ground_truth": "To find out if you have diabetes, your health care provider will use one or more glucose blood tests. There are several types of these tests, including the A1C test.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "What are the treatments for type 1 diabetes?",
+    "ground_truth": "If you have type 1 diabetes, you will need to take daily doses of insulin, either by injection or through a special pump. Some people also need to take another type of diabetes medicine that works with insulin. Checking your blood glucose levels regularly is also an important part of managing your diabetes.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "How can type 2 diabetes be treated or managed?",
+    "ground_truth": "If you have type 2 diabetes, you may be able to manage or even reverse it by making lifestyle changes. These include eating a healthy diet, staying at a healthy weight, and getting regular physical activity. Some people also need to take diabetes medicines to manage their diabetes. Checking your blood glucose levels is also an important part of managing your diabetes.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "How is gestational diabetes treated?",
+    "ground_truth": "If you have gestational diabetes, you may be able to lower your glucose levels by eating a healthy diet and getting regular exercise. You should talk to your provider about your treatment options. Gestational diabetes usually goes away after you give birth, but you will have a higher risk of developing type 2 diabetes later.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "Can type 1 diabetes be prevented?",
+    "ground_truth": "Type 1 diabetes cannot be prevented.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "How can you help delay or prevent type 2 diabetes?",
+    "ground_truth": "You may be able to delay or prevent type 2 diabetes by making the same lifestyle changes that are used to manage diabetes: eating a healthy diet, staying at a healthy weight, and getting regular physical activity.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  },
+  {
+    "question": "Can lifestyle changes help prevent gestational diabetes?",
+    "ground_truth": "The lifestyle changes used to manage diabetes, such as eating a healthy diet, staying at a healthy weight, and getting regular physical activity, may also help prevent gestational diabetes.",
+    "source": "conditions_diabetes_treatment",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilineplus_treatment.md"
+  }
+]

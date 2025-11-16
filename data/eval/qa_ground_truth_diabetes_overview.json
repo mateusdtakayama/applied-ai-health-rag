@@ -1,0 +1,74 @@
+[
+  {
+    "question": "What is diabetes?",
+    "ground_truth": "Diabetes, also known as diabetes mellitus, is a disease in which blood glucose (blood sugar) levels are too high. Glucose is the body's main source of energy and comes from food as well as being produced by the body itself. Insulin, a hormone made by the pancreas, helps move glucose from the bloodstream into cells where it can be used for energy. In diabetes, the body can't make insulin, can't use insulin as well as it should, or both, causing glucose to stay in the blood and not reach the cells.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "Why is diabetes a health problem?",
+    "ground_truth": "When you have diabetes, too much glucose stays in your blood and doesn't reach your cells. Over time, high blood glucose levels can lead to serious health conditions affecting various organs and systems in the body. Although these risks exist, you can take steps to manage your diabetes and try to prevent these health problems by keeping glucose levels closer to normal.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "What are the main types of diabetes?",
+    "ground_truth": "There are three main types of diabetes: Type 1 diabetes, where the body makes little or no insulin because the immune system attacks and destroys insulin-producing cells; Type 2 diabetes, the most common form, where the body may still make insulin but cells don't respond well to it and can't easily take up enough glucose from the blood; and Gestational diabetes, which develops during pregnancy when the body can't make the extra insulin needed during that time.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "What causes type 1 diabetes?",
+    "ground_truth": "Researchers think type 1 diabetes is caused by genes and environmental factors that might trigger the disease. It happens when the immune system attacks and destroys the cells in the pancreas that produce insulin.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "What causes type 2 diabetes?",
+    "ground_truth": "Type 2 diabetes is caused by several factors, including lifestyle factors and genes. The lifestyle factors include not being physically active and being overweight or having obesity.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "Who is at higher risk of developing type 2 diabetes?",
+    "ground_truth": "You are at higher risk of developing type 2 diabetes if you are overweight or have obesity, are over age 35, have a family history of diabetes, have prediabetes, had gestational diabetes, have given birth to a baby weighing 9 pounds or more, are African American, American Indian, Asian American, Hispanic/Latino, or Pacific Islander, are not physically active, or have certain other health conditions such as high blood pressure or polycystic ovary syndrome (PCOS).",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "What are the common symptoms of diabetes?",
+    "ground_truth": "The symptoms of diabetes may include feeling very thirsty, feeling very hungry, urinating (peeing) more often including at night, fatigue, blurry vision, numbness or tingling in the feet or hands, sores that do not heal, and losing weight without trying. However, symptoms vary by type: type 1 symptoms usually come on quickly and can be severe, type 2 symptoms often develop slowly over several years and can be so mild you might not notice them, and gestational diabetes often has no symptoms or only mild ones.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "How is diabetes diagnosed?",
+    "ground_truth": "To find out if you have diabetes, your health care provider will use one or more glucose blood tests. There are several types of tests available, including the A1C test, which measures your average blood glucose levels over the past 2-3 months.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "How is type 1 diabetes treated?",
+    "ground_truth": "If you have type 1 diabetes, you will need to take daily doses of insulin, either by injection or through a special pump. Some people also need to take another type of diabetes medicine that works with insulin. Checking your blood glucose levels is also an important part of managing your diabetes.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "How is type 2 diabetes treated?",
+    "ground_truth": "If you have type 2 diabetes, you may be able to manage or even reverse it by making lifestyle changes. These include eating a healthy diet, staying at a healthy weight, and getting regular physical activity. Some people also need to take diabetes medicines to manage their diabetes. Checking your blood glucose levels regularly is also an important part of managing your diabetes.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "Can diabetes be prevented?",
+    "ground_truth": "Type 1 diabetes cannot be prevented. However, you may be able to delay or prevent type 2 diabetes through lifestyle changes such as eating a healthy diet, staying at a healthy weight, and getting regular physical activity. These same lifestyle changes may also help prevent gestational diabetes.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  },
+  {
+    "question": "What is gestational diabetes and how is it treated?",
+    "ground_truth": "Gestational diabetes is a form of diabetes that develops during pregnancy when the body can't make the extra insulin needed during that time. It often has no symptoms or only mild ones. You may be able to lower your glucose levels by eating a healthy diet and getting regular exercise, but you should talk to your provider about treatment options. Gestational diabetes usually goes away after you give birth, but you will have a higher risk of developing type 2 diabetes later.",
+    "source": "conditions_diabetes_overview",
+    "source_file": "data/processed/health_education/conditions/diabetes/diabetes_medilinepluis_overview.md"
+  }
+]
