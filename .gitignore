@@ -12,3 +12,7 @@ wheels/
 notes.md
 
 data/raw
+
+.env
+
+chroma_db

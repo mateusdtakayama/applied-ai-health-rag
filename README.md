@@ -9,7 +9,7 @@ This project implements an end-to-end ETL pipeline to:
 1. Download health education content from MedlinePlus
 2. Convert HTML documents to Markdown format
 3. Split documents into chunks for RAG processing
-4. Prepare structured data for vector database ingestion
+4. Ingest chunks into ChromaDB vector store with OpenAI embeddings
 
 ## 🏗️ Project Structure
 
@@ -26,7 +26,9 @@ applied-ai-health-rag/
 ├── notebooks/
 │   ├── 1.download_raw_data.ipynb           # Download HTML from MedlinePlus
 │   ├── 2.convert_html_to_markdown.ipynb    # Convert HTML to Markdown
-│   └── 3.chunk_markdown.ipynb              # Split Markdown into chunks
+│   ├── 3.chunk_markdown.ipynb              # Split Markdown into chunks
+│   └── 4.ingest_chunks_to_chromadb.ipynb   # Ingest chunks to ChromaDB
+├── chroma_db/                   # ChromaDB vector store (created by notebook 4)
 ├── src/                         # Source code (for future use)
 ├── etl/                         # ETL scripts (for future use)
 ├── pyproject.toml               # Project dependencies
@@ -63,7 +65,7 @@ pip install -e .
 
 ### Setup
 
-Activate the virtual environment:
+1. Activate the virtual environment:
 
 ```bash
 # With uv
@@ -75,9 +77,21 @@ source .venv/bin/activate  # Linux/Mac
 source venv/bin/activate  # Linux/Mac
 ```
 
+1. Set up OpenAI API key (required for notebook 4):
+
+```bash
+export OPENAI_API_KEY="your-api-key-here"
+```
+
+Or create a `.env` file in the project root:
+
+```bash
+OPENAI_API_KEY=your-api-key-here
+```
+
 ## 📓 Usage
 
-The pipeline consists of three sequential notebooks. Execute them in order:
+The pipeline consists of four sequential notebooks. Execute them in order:
 
 ### 1. Download Raw Data
 
@@ -129,10 +143,43 @@ Splits Markdown documents into smaller chunks suitable for RAG processing using 
 }
 ```
 
+### 4. Ingest Chunks to ChromaDB
+
+**Notebook:** `notebooks/4.ingest_chunks_to_chromadb.ipynb`
+
+Loads the chunked documents and ingests them into a ChromaDB vector store with OpenAI embeddings for RAG applications.
+
+**Requirements:**
+
+- `OPENAI_API_KEY` environment variable must be set
+- OpenAI API access (for embeddings)
+
+**Configuration:**
+
+- Embedding model: `text-embedding-3-small` (OpenAI)
+- Vector store: ChromaDB (persisted locally)
+- Collection name: `health_education_chunks`
+
+**Output:**
+
+- `chroma_db/`: Persistent ChromaDB vector store directory
+- Vector store ready for similarity search and RAG queries
+
+**Features:**
+
+- Converts JSON chunks to LangChain Document objects
+- Generates embeddings using OpenAI
+- Persists vector store to disk
+- Includes verification and sample similarity search
+
 ## 🔧 Dependencies
 
 - **docling**: HTML to Markdown conversion
 - **langchain-text-splitters**: Document chunking for RAG
+- **langchain-chroma**: ChromaDB integration for LangChain
+- **langchain-openai**: OpenAI embeddings and models integration
+- **langchain-core**: Core LangChain functionality
+- **chromadb**: Vector database for embeddings
 - **requests**: HTTP requests for downloading data
 - **ipykernel**: Jupyter notebook support
 
@@ -164,13 +211,17 @@ data/processed/*.md
     ↓
 data/chunks/*.json
     ↓
-Ready for Vector DB / RAG
+[Notebook 4] Ingest to ChromaDB with OpenAI embeddings
+    ↓
+chroma_db/ (Vector Store)
+    ↓
+Ready for RAG Applications
 ```
 
 ## 🎯 Next Steps
 
-- [ ] Add vector database integration (e.g., Chroma, Pinecone, Weaviate)
-- [ ] Implement embedding generation
+- [x] Add vector database integration (ChromaDB)
+- [x] Implement embedding generation (OpenAI)
 - [ ] Create RAG query interface
 - [ ] Add evaluation metrics
 - [ ] Expand data sources
